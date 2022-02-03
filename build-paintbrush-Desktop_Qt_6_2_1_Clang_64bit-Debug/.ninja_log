@@ -1,0 +1,22 @@
+# ninja log v5
+7	16	1643844875053684295	paintbrush_autogen/EWIEGA46WW/qrc_resources.cpp	3117313c7b3eeaf8
+49	75	1643844663717688681	CMakeFiles/paintbrush.dir/paintbrush_autogen/mocs_compilation.cpp.o	19c427655bf376fe
+7	1343	1643846546345649612	CMakeFiles/paintbrush.dir/toolbar.cpp.o	191a54ca94544e62
+1	8	1643873458703982303	paintbrush_autogen/timestamp	7040c8848e931d5a
+0	9	0	CMakeFiles/clean.additional	a1c8be0bdbf057a1
+7	16	1643844875053684295	/home/ben/Documents/projects/paintbrush/build-paintbrush-Desktop_Qt_6_2_1_Clang_64bit-Debug/paintbrush_autogen/EWIEGA46WW/qrc_resources.cpp	3117313c7b3eeaf8
+1	8	1643873458703982303	/home/ben/Documents/projects/paintbrush/build-paintbrush-Desktop_Qt_6_2_1_Clang_64bit-Debug/paintbrush_autogen/mocs_compilation.cpp	7040c8848e931d5a
+1439	1700	1643846599381648511	paintbrush	e99f92bc0013a21
+1	8	1643873458703982303	paintbrush_autogen/mocs_compilation.cpp	7040c8848e931d5a
+16	140	1643844875173684293	CMakeFiles/paintbrush.dir/paintbrush_autogen/EWIEGA46WW/qrc_resources.cpp.o	a42531a691ca79ec
+1	8	1643873458703982303	/home/ben/Documents/projects/paintbrush/build-paintbrush-Desktop_Qt_6_2_1_Clang_64bit-Debug/paintbrush_autogen/timestamp	7040c8848e931d5a
+8	1580	1643873460267971262	CMakeFiles/paintbrush.dir/main.cpp.o	297be5dc053990a0
+9	1480	1643873460167971969	CMakeFiles/paintbrush.dir/mainwindow.cpp.o	67a308e67b0b4047
+10	18	0	clean	a31eedcededa8236
+1	170	1643873480071831231	paintbrush_autogen/timestamp	7040c8848e931d5a
+1	170	1643873480071831231	paintbrush_autogen/mocs_compilation.cpp	7040c8848e931d5a
+1	170	1643873480071831231	/home/ben/Documents/projects/paintbrush/build-paintbrush-Desktop_Qt_6_2_1_Clang_64bit-Debug/paintbrush_autogen/timestamp	7040c8848e931d5a
+1	170	1643873480071831231	/home/ben/Documents/projects/paintbrush/build-paintbrush-Desktop_Qt_6_2_1_Clang_64bit-Debug/paintbrush_autogen/mocs_compilation.cpp	7040c8848e931d5a
+170	1401	1643873481299822535	CMakeFiles/paintbrush.dir/canvas.cpp.o	6c4c401ce5e2d543
+170	1404	1643873481303822507	CMakeFiles/paintbrush.dir/paintbrush_autogen/mocs_compilation.cpp.o	19c427655bf376fe
+1405	1694	1643873481595820438	paintbrush	4881101d9d58da21

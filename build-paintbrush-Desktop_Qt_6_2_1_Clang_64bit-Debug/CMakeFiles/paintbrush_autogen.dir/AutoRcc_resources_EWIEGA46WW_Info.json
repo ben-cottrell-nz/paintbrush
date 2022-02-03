@@ -1,0 +1,24 @@
+{
+	"BUILD_DIR" : "/home/ben/Documents/projects/paintbrush/build-paintbrush-Desktop_Qt_6_2_1_Clang_64bit-Debug/paintbrush_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ben/Documents/projects/paintbrush/build-paintbrush-Desktop_Qt_6_2_1_Clang_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ben/Documents/projects/paintbrush/build-paintbrush-Desktop_Qt_6_2_1_Clang_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ben/Documents/projects/paintbrush",
+	"CMAKE_SOURCE_DIR" : "/home/ben/Documents/projects/paintbrush",
+	"INCLUDE_DIR" : "/home/ben/Documents/projects/paintbrush/build-paintbrush-Desktop_Qt_6_2_1_Clang_64bit-Debug/paintbrush_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/ben/Documents/projects/paintbrush/icons/fill-bucket.png",
+		"/home/ben/Documents/projects/paintbrush/icons/pencil.png",
+		"/home/ben/Documents/projects/paintbrush/icons/paintbrush.png"
+	],
+	"LOCK_FILE" : "/home/ben/Documents/projects/paintbrush/build-paintbrush-Desktop_Qt_6_2_1_Clang_64bit-Debug/CMakeFiles/paintbrush_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/home/ben/Qt/6.2.1/gcc_64/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/ben/Documents/projects/paintbrush/build-paintbrush-Desktop_Qt_6_2_1_Clang_64bit-Debug/CMakeFiles/paintbrush_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/ben/Documents/projects/paintbrush/resources.qrc",
+	"VERBOSITY" : 0
+}
