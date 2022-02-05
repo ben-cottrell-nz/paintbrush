@@ -1,6 +1,7 @@
 /home/ben/Documents/projects/paintbrush/cmake-build-debug/paintbrush_autogen/EWIEGA46WW/moc_canvas.cpp: /home/ben/Documents/projects/paintbrush/canvas.h \
   /home/ben/Documents/projects/paintbrush/cmake-build-debug/paintbrush_autogen/moc_predefs.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/QObject \
+  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/QPoint \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qalgorithms.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qanystringview.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qarraydata.h \
@@ -69,6 +70,8 @@
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qutf8stringview.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qversiontagging.h \
+  /home/ben/Qt/6.2.1/gcc_64/include/QtGui/QImage \
+  /home/ben/Qt/6.2.1/gcc_64/include/QtGui/QPixmap \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qbitmap.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qbrush.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qcolor.h \
@@ -90,7 +93,8 @@
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qtguiglobal.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qtransform.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/QWidget \
+  /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/QFrame \
+  /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qframe.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qsizepolicy.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \

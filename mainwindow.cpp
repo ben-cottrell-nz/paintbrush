@@ -6,11 +6,25 @@
 #include <QStatusBar>
 #include <QLabel>
 #include <QMenuBar>
+#include <QScrollArea>
 MainWindow::MainWindow() : m_toolbar(), m_dock(), m_canvas(this){
   resize(1024,768);
-  setCentralWidget(&m_canvas);
+  m_scrollArea = new QScrollArea;
+  setCentralWidget(m_scrollArea);
+  m_scrollArea->setBackgroundRole(QPalette::Dark);
+  m_scrollArea->setWidgetResizable(true);
+  m_scrollArea->setWidget(&m_canvas);
   addDockWidget(Qt::DockWidgetArea::LeftDockWidgetArea, &m_dock);
   m_dock.setWidget(&m_toolbar);
+  m_canvas.setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
+  connect(&m_canvas, &Canvas::canvasSizeChanged, this, [&](int& w, int& h){
+	m_canvas.setFixedSize(w + m_canvas.PADDING + m_canvas.BORDER,
+						  h + m_canvas.PADDING + m_canvas.BORDER);
+  });
+  //m_canvas.setScaledContents(true);
+//  m_scrollArea->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
+//  m_scrollArea->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
+  m_canvas.setFixedSize(m_scrollArea->width(), m_scrollArea->height());
 //  QLabel* dockTitleLabel = new QLabel(this);
 //  dockTitleLabel->setText("Tools");
 //  m_dock.setTitleBarWidget(dockTitleLabel);
@@ -33,4 +47,7 @@ MainWindow::MainWindow() : m_toolbar(), m_dock(), m_canvas(this){
 }
 MainWindow::~MainWindow() {
 
+}
+void MainWindow::resizeEvent(QResizeEvent *e) {
+  m_canvas.setFixedSize(m_scrollArea->width(), m_scrollArea->height());
 }
