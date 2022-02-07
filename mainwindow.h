@@ -13,19 +13,20 @@
 #include "toolbar.h"
 #include "canvas.h"
 
-class MainWindow : public QMainWindow {
+class MainWindow : public QMainWindow
+{
  public:
-  MainWindow();
-  ~MainWindow();
+	MainWindow();
+	~MainWindow();
  protected:
-  void resizeEvent(QResizeEvent*);
+	void resizeEvent(QResizeEvent*);
  private:
-  friend class Canvas;
-  QScrollArea* m_scrollArea;
-  QDockWidget m_dock;
-  QWidget m_centralWidget;
-  Toolbar m_toolbar;
-  Canvas m_canvas;
+	friend class Canvas;
+	QScrollArea* m_scrollArea;
+	QDockWidget m_dock;
+	QWidget m_centralWidget;
+	Toolbar m_toolbar;
+	Canvas m_canvas;
 };
 
 #endif //PAINTBRUSH__MAINWINDOW_H_

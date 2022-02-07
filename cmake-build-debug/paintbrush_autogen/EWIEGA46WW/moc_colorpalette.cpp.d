@@ -1,62 +1,5 @@
-paintbrush_autogen/timestamp: \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCInformation.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXInformation.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeGenericSystem.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseArguments.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CheckCXXCompilerFlag.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CheckIncludeFile.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CheckLibraryExists.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Clang-C.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Clang-CXX.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Clang.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/FeatureSummary.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/FindOpenGL.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageMessage.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/FindPkgConfig.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/FindThreads.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/FindVulkan.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Internal/CheckCompilerFlag.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-Clang-C.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-Clang-CXX.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-C.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-CXX.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux.cmake \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/UnixPaths.cmake \
-  ../CMakeLists.txt \
-  ../canvas.cpp \
-  ../canvas.h \
-  CMakeFiles/3.21.1/CMakeCCompiler.cmake \
-  CMakeFiles/3.21.1/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.21.1/CMakeSystem.cmake \
-  paintbrush_autogen/moc_predefs.h \
-  ../colorpalette.cpp \
-  ../colorpalette.h \
-  ../main.cpp \
-  ../mainwindow.cpp \
-  ../mainwindow.h \
-  ../resources.qrc \
-  ../toolbar.cpp \
-  ../toolbar.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/QEvent \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/QMargins \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/QObject \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/QPoint \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/QQueue \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/QRect \
+/home/ben/Documents/projects/paintbrush/cmake-build-debug/paintbrush_autogen/EWIEGA46WW/moc_colorpalette.cpp: /home/ben/Documents/projects/paintbrush/colorpalette.h \
+  /home/ben/Documents/projects/paintbrush/cmake-build-debug/paintbrush_autogen/moc_predefs.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qalgorithms.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qanystringview.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qarraydata.h \
@@ -75,14 +18,10 @@ paintbrush_autogen/timestamp: \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qcontainerfwd.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qcontainerinfo.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qcontiguouscache.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qcoreevent.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qdatastream.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qdebug.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qflags.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qglobal.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qglobalstatic.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qhash.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qhashfunctions.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qiodevicebase.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qiterable.h \
@@ -90,14 +29,11 @@ paintbrush_autogen/timestamp: \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qline.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qlist.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qlogging.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qloggingcategory.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qmap.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qmargins.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qmath.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qmetacontainer.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qmetatype.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qnamespace.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qnativeinterface.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qnumeric.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qobject.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qobject_impl.h \
@@ -108,20 +44,16 @@ paintbrush_autogen/timestamp: \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qprocessordetection.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qproperty.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qpropertyprivate.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qqueue.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qrect.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qrefcount.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qscopedpointer.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qscopeguard.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qset.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qshareddata.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qshareddata_impl.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qsharedpointer.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qsharedpointer_impl.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qsize.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qstring.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qstringalgorithms.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qstringconverter.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qstringlist.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qstringliteral.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qstringmatcher.h \
@@ -131,17 +63,11 @@ paintbrush_autogen/timestamp: \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qsystemdetection.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qtaggedpointer.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qtcore-config.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qtextstream.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qtmetamacros.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qtypeinfo.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qutf8stringview.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qvariant.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtCore/qversiontagging.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtGui/QImage \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtGui/QPixmap \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtGui/QWindow \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qaction.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qbitmap.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qbrush.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qcolor.h \
@@ -149,7 +75,6 @@ paintbrush_autogen/timestamp: \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qfont.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qfontinfo.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qfontmetrics.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qicon.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qimage.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qkeysequence.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qpaintdevice.h \
@@ -160,92 +85,15 @@ paintbrush_autogen/timestamp: \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qregion.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qrgb.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qrgba64.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qsurface.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qsurfaceformat.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qtgui-config.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qtguiglobal.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qtransform.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qwindow.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/QFrame \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/QHBoxLayout \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/QToolBar \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/QVBoxLayout \
   /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/QWidget \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qboxlayout.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qframe.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qgridlayout.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qlayout.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qlayoutitem.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qsizepolicy.h \
-  /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qtoolbar.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qwidget.h \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/QtFeature.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
-  /home/ben/Qt/6.2.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -425,7 +273,6 @@ paintbrush_autogen/timestamp: \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
-  /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -463,7 +310,6 @@ paintbrush_autogen/timestamp: \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
@@ -476,19 +322,15 @@ paintbrush_autogen/timestamp: \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
@@ -525,5 +367,4 @@ paintbrush_autogen/timestamp: \
   /usr/include/x86_64-linux-gnu/sys/syscall.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/llvm-13/lib/clang/13.0.0/include/stdarg.h \
-  /usr/lib/llvm-13/lib/clang/13.0.0/include/stddef.h \
-  /home/ben/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/bin/cmake
+  /usr/lib/llvm-13/lib/clang/13.0.0/include/stddef.h

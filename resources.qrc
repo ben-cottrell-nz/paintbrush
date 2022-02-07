@@ -3,5 +3,8 @@
         <file>icons/fill-bucket.png</file>
         <file>icons/paintbrush.png</file>
         <file>icons/pencil.png</file>
+        <file>cursor/pencil.xpm</file>
+        <file>cursor/paintbrush.xpm</file>
+        <file>cursor/fill.xpm</file>
     </qresource>
 </RCC>

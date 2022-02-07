@@ -116,7 +116,8 @@
 				2,
 				4,
 				7,
-				9
+				8,
+				11
 			]
 		}
 	],
@@ -188,7 +189,8 @@
 				2,
 				4,
 				7,
-				9
+				8,
+				11
 			]
 		},
 		{
@@ -196,7 +198,8 @@
 			"sourceIndexes" : 
 			[
 				3,
-				5
+				5,
+				9
 			]
 		},
 		{
@@ -204,15 +207,15 @@
 			"sourceIndexes" : 
 			[
 				6,
-				8
+				10
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				10,
-				11
+				12,
+				13
 			]
 		}
 	],
@@ -263,6 +266,17 @@
 			"compileGroupIndex" : 0,
 			"path" : "canvas.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "colorpalette.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "colorpalette.h",
+			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,

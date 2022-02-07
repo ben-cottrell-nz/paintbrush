@@ -10,11 +10,21 @@
 #include <QHBoxLayout>
 #include <QWindow>
 
-class Toolbar : public QWidget {
- public:
-  Toolbar();
- private:
-  QGridLayout m_gridlayout;
+class Toolbar : public QWidget
+{
+	Q_OBJECT
+public:
+	Toolbar();
+	enum ToolMode {
+		PENCIL,
+		PAINTBRUSH,
+		FILL
+	};
+signals:
+	void toolChanged(ToolMode);
+private:
+	QGridLayout m_gridlayout;
+
 };
 
 #endif //PAINTBRUSH__TOOLBAR_H_

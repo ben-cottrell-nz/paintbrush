@@ -14,7 +14,7 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(paintbrush main.cpp mainwindow.cpp mainwindow.h toolbar.cpp toolbar.h resources.qrc canvas.cpp)
+add_executable(paintbrush main.cpp mainwindow.cpp mainwindow.h toolbar.cpp toolbar.h resources.qrc canvas.cpp colorpalette.cpp colorpalette.h)
 target_link_libraries(paintbrush
         Qt::Core
         Qt::Gui
