@@ -77,11 +77,13 @@ void Canvas::mousePressEvent(QMouseEvent* e)
 }
 void Canvas::mouseReleaseEvent(QMouseEvent*)
 {
-	m_mouseDown = false;
 	m_cornerMouseDown[0] = false;
-	m_cornerMouseDown[1] = false;
-	m_cornerMouseDown[2] = false;
-	m_cornerMouseDown[3] = false;
+	if (m_cornerMouseDown[1] || m_cornerMouseDown[2] || m_cornerMouseDown[3]) {
+		resize(m_width, m_height);
+		m_cornerMouseDown[1] = false;
+		m_cornerMouseDown[2] = false;
+		m_cornerMouseDown[3] = false;
+	}
 }
 void Canvas::mouseMoveEvent(QMouseEvent* e)
 {
@@ -103,7 +105,6 @@ void Canvas::mouseMoveEvent(QMouseEvent* e)
 		m_cornerHandlePos[1].setX(m_width + BORDER);
 		m_cornerHandlePos[2].setY(m_height + BORDER);
 		emit canvasSizeChanged(m_width, m_height);
-		resize(m_width, m_height);
 	}
 	else
 	{
@@ -111,16 +112,12 @@ void Canvas::mouseMoveEvent(QMouseEvent* e)
 		{
 			if (m_toolMode == ToolMode::PENCIL)
 			{
+				if (m_bmpPaint->isActive()) {
+					m_bmpPaint->end();
+				}
+				m_bmpPaint->begin(&m_bitmap);
 				m_bmpPaint->drawEllipse(e->pos().operator-=({ 5, 5 }), 5, 5);
-//				m_drawPoints.enqueue(e->pos());
-////				qDebug() << qAbs(pow(m_lastMousePos.x(),2)-pow(m_lastMousePos.y(),2));
-//				if (qAbs(m_lastMousePos.x() - e->pos().x()) < 3 && qAbs(m_lastMousePos.y() - e->pos().y()) < 3)
-//				{
-//					while (!m_drawPoints.isEmpty())
-//					{
-//						m_bmpPaint->drawEllipse(m_drawPoints.dequeue().operator-=({ 5, 5 }), 5, 5);
-//					}
-//				}
+				m_bmpPaint->end();
 			}
 			m_lastMousePos = e->pos();
 		}
@@ -151,7 +148,14 @@ void Canvas::resize(int w, int h)
 {
 	QImage imageSized(w,h,m_bitmap.format());
 	imageSized.fill(QColor(255,255,255));
-	QPainter p(&imageSized);
-	p.drawImage(m_bitmap.rect(),m_bitmap);
-	m_bitmap = imageSized;
+	if (m_bmpPaint->isActive()) {
+		m_bmpPaint->end();
+	}
+	m_bmpPaint->begin(&imageSized);
+	m_bmpPaint->fillRect(0,0,w,h,QColor(255,255,255));
+	m_bmpPaint->drawImage(0,0,m_bitmap);
+	m_bmpPaint->end();
+	m_bitmap.detach();
+	m_bitmap = imageSized.copy();
+	update();
 }

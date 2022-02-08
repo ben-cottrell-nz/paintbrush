@@ -34,8 +34,8 @@ class Canvas : public QFrame
 	int m_width, m_height;
 	QPoint m_cornerHandlePos[4];
 	QPoint m_cornerLastHandlePos[4];
-	bool m_mouseDrawing;
-	QPoint m_lastMousePos;
+	bool m_mouseDrawing = false;
+	QPoint m_lastMousePos = {0,0};
 	bool m_cornerMouseDown[4] = { false, false, false, false };
 	QQueue<QPoint> m_drawPoints;
 	QColor m_drawingColor;

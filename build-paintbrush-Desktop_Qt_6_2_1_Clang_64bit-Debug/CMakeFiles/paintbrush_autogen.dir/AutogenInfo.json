@@ -224,6 +224,12 @@
 			null
 		],
 		[
+			"/home/ben/Documents/projects/paintbrush/colorpalette.h",
+			"MU",
+			"EWIEGA46WW/moc_colorpalette.cpp",
+			null
+		],
+		[
 			"/home/ben/Documents/projects/paintbrush/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -287,6 +293,11 @@
 	"SOURCES" : 
 	[
 		[ "/home/ben/Documents/projects/paintbrush/canvas.cpp", "MU", null ],
+		[
+			"/home/ben/Documents/projects/paintbrush/colorpalette.cpp",
+			"MU",
+			null
+		],
 		[ "/home/ben/Documents/projects/paintbrush/main.cpp", "MU", null ],
 		[ "/home/ben/Documents/projects/paintbrush/mainwindow.cpp", "MU", null ],
 		[ "/home/ben/Documents/projects/paintbrush/toolbar.cpp", "MU", null ]

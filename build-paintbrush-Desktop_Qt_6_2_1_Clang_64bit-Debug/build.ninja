@@ -113,6 +113,14 @@ build CMakeFiles/paintbrush.dir/canvas.cpp.o: CXX_COMPILER__paintbrush_Debug /ho
   OBJECT_DIR = CMakeFiles/paintbrush.dir
   OBJECT_FILE_DIR = CMakeFiles/paintbrush.dir
 
+build CMakeFiles/paintbrush.dir/colorpalette.cpp.o: CXX_COMPILER__paintbrush_Debug /home/ben/Documents/projects/paintbrush/colorpalette.cpp || cmake_object_order_depends_target_paintbrush
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/paintbrush.dir/colorpalette.cpp.o.d
+  FLAGS = -g -fPIC -std=gnu++17
+  INCLUDES = -I/home/ben/Documents/projects/paintbrush/build-paintbrush-Desktop_Qt_6_2_1_Clang_64bit-Debug/paintbrush_autogen/include -isystem /home/ben/Qt/6.2.1/gcc_64/include/QtCore -isystem /home/ben/Qt/6.2.1/gcc_64/include -isystem /home/ben/Qt/6.2.1/gcc_64/mkspecs/linux-g++ -isystem /home/ben/Qt/6.2.1/gcc_64/include/QtGui -isystem /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles/paintbrush.dir
+  OBJECT_FILE_DIR = CMakeFiles/paintbrush.dir
+
 build CMakeFiles/paintbrush.dir/paintbrush_autogen/EWIEGA46WW/qrc_resources.cpp.o: CXX_COMPILER__paintbrush_Debug /home/ben/Documents/projects/paintbrush/build-paintbrush-Desktop_Qt_6_2_1_Clang_64bit-Debug/paintbrush_autogen/EWIEGA46WW/qrc_resources.cpp || cmake_object_order_depends_target_paintbrush
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/paintbrush.dir/paintbrush_autogen/EWIEGA46WW/qrc_resources.cpp.o.d
@@ -129,7 +137,7 @@ build CMakeFiles/paintbrush.dir/paintbrush_autogen/EWIEGA46WW/qrc_resources.cpp.
 #############################################
 # Link the executable paintbrush
 
-build paintbrush: CXX_EXECUTABLE_LINKER__paintbrush_Debug CMakeFiles/paintbrush.dir/paintbrush_autogen/mocs_compilation.cpp.o CMakeFiles/paintbrush.dir/main.cpp.o CMakeFiles/paintbrush.dir/mainwindow.cpp.o CMakeFiles/paintbrush.dir/toolbar.cpp.o CMakeFiles/paintbrush.dir/canvas.cpp.o CMakeFiles/paintbrush.dir/paintbrush_autogen/EWIEGA46WW/qrc_resources.cpp.o | /home/ben/Qt/6.2.1/gcc_64/lib/libQt6Widgets.so.6.2.1 /home/ben/Qt/6.2.1/gcc_64/lib/libQt6Gui.so.6.2.1 /home/ben/Qt/6.2.1/gcc_64/lib/libQt6Core.so.6.2.1 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || paintbrush_autogen paintbrush_autogen_timestamp_deps
+build paintbrush: CXX_EXECUTABLE_LINKER__paintbrush_Debug CMakeFiles/paintbrush.dir/paintbrush_autogen/mocs_compilation.cpp.o CMakeFiles/paintbrush.dir/main.cpp.o CMakeFiles/paintbrush.dir/mainwindow.cpp.o CMakeFiles/paintbrush.dir/toolbar.cpp.o CMakeFiles/paintbrush.dir/canvas.cpp.o CMakeFiles/paintbrush.dir/colorpalette.cpp.o CMakeFiles/paintbrush.dir/paintbrush_autogen/EWIEGA46WW/qrc_resources.cpp.o | /home/ben/Qt/6.2.1/gcc_64/lib/libQt6Widgets.so.6.2.1 /home/ben/Qt/6.2.1/gcc_64/lib/libQt6Gui.so.6.2.1 /home/ben/Qt/6.2.1/gcc_64/lib/libQt6Core.so.6.2.1 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || paintbrush_autogen paintbrush_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = -Wl,-rpath,/home/ben/Qt/6.2.1/gcc_64/lib  /home/ben/Qt/6.2.1/gcc_64/lib/libQt6Widgets.so.6.2.1  /home/ben/Qt/6.2.1/gcc_64/lib/libQt6Gui.so.6.2.1  /home/ben/Qt/6.2.1/gcc_64/lib/libQt6Core.so.6.2.1  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so
   OBJECT_DIR = CMakeFiles/paintbrush.dir
@@ -164,7 +172,7 @@ build paintbrush_autogen/timestamp paintbrush_autogen/mocs_compilation.cpp | ${c
 #############################################
 # Custom command for paintbrush_autogen/EWIEGA46WW/qrc_resources.cpp
 
-build paintbrush_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}paintbrush_autogen/EWIEGA46WW/qrc_resources.cpp: CUSTOM_COMMAND ../resources.qrc CMakeFiles/paintbrush_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json ../icons/fill-bucket.png ../icons/pencil.png ../icons/paintbrush.png /home/ben/Qt/6.2.1/gcc_64/./libexec/rcc || paintbrush_autogen paintbrush_autogen_timestamp_deps
+build paintbrush_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}paintbrush_autogen/EWIEGA46WW/qrc_resources.cpp: CUSTOM_COMMAND ../resources.qrc CMakeFiles/paintbrush_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json ../cursor/fill.xpm ../cursor/pencil.xpm ../cursor/paintbrush.xpm ../icons/fill-bucket.png ../icons/pencil.png ../icons/paintbrush.png /home/ben/Qt/6.2.1/gcc_64/./libexec/rcc || paintbrush_autogen paintbrush_autogen_timestamp_deps
   COMMAND = cd /home/ben/Documents/projects/paintbrush/build-paintbrush-Desktop_Qt_6_2_1_Clang_64bit-Debug && /home/ben/Qt/Tools/CMake/bin/cmake -E cmake_autorcc /home/ben/Documents/projects/paintbrush/build-paintbrush-Desktop_Qt_6_2_1_Clang_64bit-Debug/CMakeFiles/paintbrush_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json Debug
   DESC = Automatic RCC for resources.qrc
   restat = 1
@@ -173,7 +181,7 @@ build paintbrush_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}pa
 #############################################
 # Phony custom command for CMakeFiles/paintbrush_autogen_timestamp_deps
 
-build CMakeFiles/paintbrush_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/paintbrush_autogen_timestamp_deps: phony /home/ben/Qt/6.2.1/gcc_64/./libexec/moc /home/ben/Qt/6.2.1/gcc_64/./libexec/uic
+build CMakeFiles/paintbrush_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/paintbrush_autogen_timestamp_deps: phony /home/ben/Qt/6.2.1/gcc_64/./libexec/uic /home/ben/Qt/6.2.1/gcc_64/./libexec/moc
 
 
 #############################################
