@@ -12,6 +12,7 @@
 #include <QScrollArea>
 #include "toolbar.h"
 #include "canvas.h"
+#include "colorpalette.h"
 
 class MainWindow : public QMainWindow
 {
@@ -24,7 +25,9 @@ class MainWindow : public QMainWindow
 	friend class Canvas;
 	QScrollArea* m_scrollArea;
 	QDockWidget m_dock;
+	QDockWidget m_dockBottom;
 	QWidget m_centralWidget;
+	ColorPalette m_palette;
 	Toolbar m_toolbar;
 	Canvas m_canvas;
 };

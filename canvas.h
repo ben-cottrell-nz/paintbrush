@@ -20,6 +20,7 @@ class Canvas : public QFrame
 	const int PADDING = 16;
 	ToolMode toolMode();
 	void setToolMode(ToolMode);
+	void setFGColor(QColor);
  protected:
 	void paintEvent(QPaintEvent*);
 	void mousePressEvent(QMouseEvent*);
@@ -36,6 +37,7 @@ class Canvas : public QFrame
 	QColor m_bgColor;
 	QPoint m_cornerHandlePos[4];
 	QPoint m_cornerLastHandlePos[4];
+	QPoint m_drawingPos;
 	bool m_mouseDrawing = false;
 	QPoint m_lastMousePos = {0,0};
 	bool m_cornerMouseDown[4] = { false, false, false, false };

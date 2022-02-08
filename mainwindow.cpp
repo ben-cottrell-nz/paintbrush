@@ -7,7 +7,7 @@
 #include <QLabel>
 #include <QMenuBar>
 #include <QScrollArea>
-MainWindow::MainWindow() : m_toolbar(), m_dock(), m_canvas(this)
+MainWindow::MainWindow() : m_toolbar(), m_dock(), m_palette(this), m_canvas(this)
 {
 	resize(1024, 768);
 	m_scrollArea = new QScrollArea;
@@ -16,7 +16,9 @@ MainWindow::MainWindow() : m_toolbar(), m_dock(), m_canvas(this)
 	m_scrollArea->setWidgetResizable(true);
 	m_scrollArea->setWidget(&m_canvas);
 	addDockWidget(Qt::DockWidgetArea::LeftDockWidgetArea, &m_dock);
+	addDockWidget(Qt::DockWidgetArea::BottomDockWidgetArea, &m_dockBottom);
 	m_dock.setWidget(&m_toolbar);
+	m_dockBottom.setWidget(&m_palette);
 	m_canvas.setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 	connect(&m_canvas, &Canvas::canvasSizeChanged, this, [&](int& w, int& h)
 	{
@@ -24,6 +26,7 @@ MainWindow::MainWindow() : m_toolbar(), m_dock(), m_canvas(this)
 		  h + m_canvas.PADDING + m_canvas.BORDER);
 	});
 	m_canvas.setFixedSize(m_scrollArea->width(), m_scrollArea->height());
+	connect(&m_palette, &ColorPalette::colorChanged, &m_canvas, &Canvas::setFGColor);
 	connect(&m_toolbar, &Toolbar::toolChanged, &m_canvas,&Canvas::setToolMode);
 	m_toolbar.setMaximumWidth(156);
 	m_toolbar.setMinimumWidth(156);

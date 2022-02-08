@@ -15,6 +15,24 @@ public:
 	ColorPalette(QWidget* p);
  private:
 	QGridLayout m_gridLayout;
+	const QColor m_palCols[16] = {
+		Qt::black,
+		Qt::white,
+		Qt::darkGray,
+		Qt::gray,
+		Qt::red,
+		Qt::green,
+		Qt::blue,
+		Qt::cyan,
+		Qt::magenta,
+		Qt::yellow,
+		Qt::darkRed,
+		Qt::darkGreen,
+		Qt::darkBlue,
+		Qt::darkCyan,
+		Qt::darkMagenta,
+		Qt::darkYellow,
+	};
  signals:
 	void colorChanged(QColor);
 };

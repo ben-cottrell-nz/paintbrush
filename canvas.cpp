@@ -53,7 +53,8 @@ void Canvas::paintEvent(QPaintEvent* e)
 		BORDER_HANDLE,
 		Qt::GlobalColor::black);;
 	//draw the brush
-	p.drawEllipse(cursor().pos().operator-=({m_radius,m_radius}),m_radius,m_radius);
+//	p.setBrush(QBrush(m_fgColor));
+//	p.drawEllipse(m_drawingPos.operator-=({m_radius,m_radius}),m_radius,m_radius);
 }
 void Canvas::mousePressEvent(QMouseEvent* e)
 {
@@ -102,6 +103,7 @@ qreal lerp(qreal v0, qreal v1, qreal t) {
 }
 void Canvas::mouseMoveEvent(QMouseEvent* e)
 {
+	m_drawingPos = e->pos();
 	if (m_cornerMouseDown[1])
 	{
 		m_cornerHandlePos[1].setX(e->pos().x() - m_cornerLastHandlePos[1].x());
@@ -132,6 +134,7 @@ void Canvas::mouseMoveEvent(QMouseEvent* e)
 				}
 				m_bmpPaint->begin(&m_bitmap);
 				m_bmpPaint->setBrush(QBrush(m_fgColor));
+				m_bmpPaint->setPen(Qt::PenStyle::NoPen);
 				int distance = floor(sqrt(
 					pow(e->pos().x() - m_lastMousePos.x(),2)+pow(e->pos().y() - m_lastMousePos.y(),2))
 				);
@@ -191,4 +194,8 @@ void Canvas::resize(int w, int h)
 	m_bitmap.detach();
 	m_bitmap = imageSized.copy();
 	update();
+}
+void Canvas::setFGColor(QColor color)
+{
+	m_fgColor = color;
 }
