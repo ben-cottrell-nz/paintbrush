@@ -1,5 +1,0 @@
-/home/ben/Documents/projects/paintbrush/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ben/Documents/projects/paintbrush/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ben/Documents/projects/paintbrush/cmake-build-debug/CMakeFiles/paintbrush.dir
-/home/ben/Documents/projects/paintbrush/cmake-build-debug/CMakeFiles/paintbrush_autogen_timestamp_deps.dir
-/home/ben/Documents/projects/paintbrush/cmake-build-debug/CMakeFiles/paintbrush_autogen.dir
