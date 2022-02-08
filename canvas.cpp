@@ -2,12 +2,16 @@
 #include "canvas.h"
 #include <QMouseEvent>
 #include <QGridLayout>
+#include <QBrush>
 
 Canvas::Canvas(QWidget* parent) : QFrame{ parent },
 								  m_zoom(1),
 								  m_width(472),
 								  m_height(567),
-								  m_bitmap(m_width, m_height, QImage::Format_ARGB32)
+								  m_bitmap(m_width, m_height, QImage::Format_ARGB32),
+								  m_fgColor(QColor(0,0,0)),
+								  m_bgColor(QColor(255,255,255)),
+								  m_radius(5)
 {
 	m_cornerHandlePos[0] = { BORDER_HANDLE, BORDER_HANDLE };
 	m_cornerHandlePos[1] = { m_width + BORDER, BORDER_HANDLE };
@@ -16,7 +20,6 @@ Canvas::Canvas(QWidget* parent) : QFrame{ parent },
 	m_curPencil = QCursor(QPixmap(":/cursor/pencil.xpm"), 0, 0);
 	m_curFill = QCursor(QPixmap(":/cursor/fill.xpm"), 0, 0);
 	m_curPaintbrush = QCursor(QPixmap(":/cursor/paintbrush.xpm"), 0, 0);
-	m_drawingColor = QColor(0, 0, 0);
 	m_bmpPaint = new QPainter(&m_bitmap);
 	m_bmpPaint->fillRect(0, 0, m_width, m_height, QColor(255, 255, 255));
 }
@@ -49,6 +52,8 @@ void Canvas::paintEvent(QPaintEvent* e)
 		BORDER_HANDLE,
 		BORDER_HANDLE,
 		Qt::GlobalColor::black);;
+	//draw the brush
+	p.drawEllipse(cursor().pos().operator-=({m_radius,m_radius}),m_radius,m_radius);
 }
 void Canvas::mousePressEvent(QMouseEvent* e)
 {
@@ -74,6 +79,13 @@ void Canvas::mousePressEvent(QMouseEvent* e)
 		m_cornerMouseDown[3] = true;
 		m_cornerLastHandlePos[3] = m_cornerHandlePos[3];
 	}
+	if (m_toolMode == ToolMode::FILL) {
+		if (m_bmpPaint->isActive()) {
+			m_bmpPaint->end();
+		}
+
+	}
+	m_lastMousePos = e->pos();
 }
 void Canvas::mouseReleaseEvent(QMouseEvent*)
 {
@@ -84,6 +96,9 @@ void Canvas::mouseReleaseEvent(QMouseEvent*)
 		m_cornerMouseDown[2] = false;
 		m_cornerMouseDown[3] = false;
 	}
+}
+qreal lerp(qreal v0, qreal v1, qreal t) {
+	return (1 - t) * v0 + t * v1;
 }
 void Canvas::mouseMoveEvent(QMouseEvent* e)
 {
@@ -116,12 +131,30 @@ void Canvas::mouseMoveEvent(QMouseEvent* e)
 					m_bmpPaint->end();
 				}
 				m_bmpPaint->begin(&m_bitmap);
-				m_bmpPaint->drawEllipse(e->pos().operator-=({ 5, 5 }), 5, 5);
+				m_bmpPaint->setBrush(QBrush(m_fgColor));
+				int distance = floor(sqrt(
+					pow(e->pos().x() - m_lastMousePos.x(),2)+pow(e->pos().y() - m_lastMousePos.y(),2))
+				);
+				if ( distance > 3 ) {
+					//interpolate
+					for (qreal i=0; i < distance; i++) {
+						QPointF dp(
+							lerp(m_lastMousePos.x(), e->pos().x(), i/distance),
+							lerp(m_lastMousePos.y(), e->pos().y(), i/distance)
+							);
+						m_bmpPaint->drawEllipse(dp.operator-=({ 5, 5 }), 5, 5);
+					}
+				} else {
+					m_bmpPaint->drawEllipse(e->pos().operator-=({ 5, 5 }), 5, 5);
+				}
 				m_bmpPaint->end();
 			}
-			m_lastMousePos = e->pos();
+			if (m_toolMode == ToolMode::PAINTBRUSH) {
+
+			}
 		}
 	}
+	m_lastMousePos = e->pos();
 	update();
 }
 Canvas::ToolMode Canvas::toolMode()

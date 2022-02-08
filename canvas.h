@@ -32,15 +32,16 @@ class Canvas : public QFrame
 	ToolMode m_toolMode;
 	QCursor m_curPencil, m_curFill, m_curPaintbrush;
 	int m_width, m_height;
+	QColor m_fgColor;
+	QColor m_bgColor;
 	QPoint m_cornerHandlePos[4];
 	QPoint m_cornerLastHandlePos[4];
 	bool m_mouseDrawing = false;
 	QPoint m_lastMousePos = {0,0};
 	bool m_cornerMouseDown[4] = { false, false, false, false };
-	QQueue<QPoint> m_drawPoints;
-	QColor m_drawingColor;
 	QPainter* m_bmpPaint;
 	bool m_mouseDown;
+	int m_radius;
 	double m_zoom;
 	QImage m_bitmap;
 

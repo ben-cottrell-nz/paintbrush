@@ -89,7 +89,12 @@
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qtguiglobal.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qtransform.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtGui/qwindowdefs.h \
+  /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/QGridLayout \
   /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/QWidget \
+  /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qboxlayout.h \
+  /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qgridlayout.h \
+  /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qlayout.h \
+  /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qlayoutitem.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qsizepolicy.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
   /home/ben/Qt/6.2.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
