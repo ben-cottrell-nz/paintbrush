@@ -199,3 +199,11 @@ void Canvas::setFGColor(QColor color)
 {
 	m_fgColor = color;
 }
+void Canvas::eraseAll()
+{
+	if (m_bmpPaint->isActive()) {
+		m_bmpPaint->end();
+	}
+	m_bitmap.fill(QColor(m_bgColor));
+	update();
+}

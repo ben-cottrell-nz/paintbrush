@@ -39,6 +39,16 @@ MainWindow::MainWindow() : m_toolbar(), m_dock(), m_palette(this), m_canvas(this
 	editMenu->setTitle("Edit");
 	helpMenu->setTitle("Help");
 	menuBar->addMenu(fileMenu);
+	QAction* actFileNew = new QAction("New", this);
+	actFileNew->setShortcut(Qt::CTRL | Qt::Key_N);
+	QAction* actFileOpen = new QAction("Open", this);
+	actFileOpen->setShortcut(Qt::CTRL | Qt::Key_O);
+	QAction* actFileSave = new QAction("Save", this);
+	actFileSave->setShortcut(Qt::CTRL | Qt::Key_S);
+	fileMenu->addAction(actFileNew);
+	fileMenu->addAction(actFileOpen);
+	fileMenu->addAction(actFileSave);
+	connect(actFileNew, &QAction::triggered, &m_canvas, &Canvas::eraseAll);
 	menuBar->addMenu(editMenu);
 	menuBar->addMenu(helpMenu);
 	setStatusBar(new QStatusBar(this));

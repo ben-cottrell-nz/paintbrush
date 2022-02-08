@@ -15,6 +15,7 @@ class Canvas : public QFrame
  public:
 	using ToolMode = Toolbar::ToolMode;
 	explicit Canvas(QWidget* parent = nullptr);
+	void eraseAll();
 	const int BORDER = 16;
 	const int BORDER_HANDLE = BORDER * 0.5;
 	const int PADDING = 16;
