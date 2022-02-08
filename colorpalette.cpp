@@ -16,7 +16,7 @@ ColorPalette::ColorPalette(QWidget* p) : QWidget(p)
 			bn->setProperty("color",m_palCols[c+(r*3)]);
 			connect(bn, &QPushButton::pressed, this, [bn, this](){
 				emit colorChanged(bn->property("color").value<QColor>());
-			});)
+			});
 			m_gridLayout.addWidget(bn,r,c);
 		}
 	}
