@@ -2,7 +2,7 @@
 A painting app written for fun and learning.
 Written by Ben Cottrell.
 
-## Dependancies
+## Dependencies
 Qt 5/6 installation, CMake 3.21
 
 ## Building
