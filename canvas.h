@@ -16,6 +16,8 @@ class Canvas : public QFrame
 	using ToolMode = Toolbar::ToolMode;
 	explicit Canvas(QWidget* parent = nullptr);
 	void eraseAll();
+	bool loadFile(const QString);
+	bool saveFile(const QString);
 	const int BORDER = 16;
 	const int BORDER_HANDLE = BORDER * 0.5;
 	const int PADDING = 16;
@@ -24,7 +26,7 @@ class Canvas : public QFrame
 	void setFGColor(QColor);
  protected:
 	void paintEvent(QPaintEvent*);
-	void mousePressEvent(QMouseEvent*);
+	[[noreturn]] void mousePressEvent(QMouseEvent*);
 	void mouseReleaseEvent(QMouseEvent*);
 	void mouseMoveEvent(QMouseEvent*);
  signals:

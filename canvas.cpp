@@ -84,7 +84,50 @@ void Canvas::mousePressEvent(QMouseEvent* e)
 		if (m_bmpPaint->isActive()) {
 			m_bmpPaint->end();
 		}
-
+		bool du = false,dd=false, dl=false,dr=false;
+		QPoint pos = e->pos();
+		int dy=0,dx=0;
+		QColor matchColor = m_bitmap.pixelColor(pos);
+		for (dy=0;!du && pos.y() + dy > 0;dy--) {
+			if (m_bitmap.pixelColor(pos.x(),pos.y()+dy) != matchColor) {
+				du = true;
+			}
+			for (dx=0;!dl && pos.x() + dx > 0;dx--) {
+				if (m_bitmap.pixelColor(pos.x()+dx,pos.y()+dy) != matchColor) {
+					dl = true;
+				} else {
+					m_bitmap.setPixelColor(pos.x()+dx,pos.y()+dy,m_fgColor);
+				}
+			}
+			for (dx=0;!dr && dx < m_bitmap.width();dx++) {
+				if (m_bitmap.pixelColor(pos.x()+dx,pos.y()+dy) != matchColor) {
+					dr = true;
+				} else {
+					m_bitmap.setPixelColor(pos.x()+dx,pos.y()+dy,m_fgColor);
+				}
+			}
+		}
+		dl = dr = false;
+		for (dy=0;!dd && dy < m_bitmap.height();dy++) {
+			if (m_bitmap.pixelColor(pos.x(),pos.y()+dy) != matchColor) {
+				dd = true;
+			}
+			for (dx=0;!dl && pos.x() + dx > 0;dx--) {
+				if (m_bitmap.pixelColor(pos.x()+dx,pos.y()+dy) != matchColor) {
+					dl = true;
+				} else {
+					m_bitmap.setPixelColor(pos.x()+dx,pos.y()+dy,m_fgColor);
+				}
+			}
+			for (dx=0;!dr && dx < m_bitmap.width();dx++) {
+				if (m_bitmap.pixelColor(pos.x()+dx,pos.y()+dy) != matchColor) {
+					dr = true;
+				} else {
+					m_bitmap.setPixelColor(pos.x()+dx,pos.y()+dy,m_fgColor);
+				}
+			}
+		}
+		update();
 	}
 	m_lastMousePos = e->pos();
 }
@@ -206,4 +249,30 @@ void Canvas::eraseAll()
 	}
 	m_bitmap.fill(QColor(m_bgColor));
 	update();
+}
+bool Canvas::loadFile(const QString fileName)
+{
+	if (m_bmpPaint->isActive()) {
+		m_bmpPaint->end();
+	}
+	if (!m_bitmap.load(fileName)) {
+		return false;
+	}
+	m_cornerHandlePos[0] = { BORDER_HANDLE, BORDER_HANDLE };
+	m_cornerHandlePos[1] = { m_bitmap.width() + BORDER, BORDER_HANDLE };
+	m_cornerHandlePos[2] = { BORDER_HANDLE, m_bitmap.height() + BORDER };
+	m_cornerHandlePos[3] = { m_bitmap.width() + BORDER, m_bitmap.height() + BORDER };
+	setFixedSize(m_bitmap.width() + PADDING * 3,m_bitmap.height() + PADDING * 3);
+	update();
+	return true;
+}
+bool Canvas::saveFile(const QString fileName)
+{
+	if (m_bmpPaint->isActive()) {
+		m_bmpPaint->end();
+	}
+	if(!m_bitmap.save(fileName)) {
+		return false;
+	}
+	return true;
 }
